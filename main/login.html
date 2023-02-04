@@ -5,30 +5,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>31-Maktab</title>
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <!-- logo -->
-      <a href="/index.html" id="logo">31-Maktab</a>
-      <div id="main-nav-links">
-        <ul id="nav-links">
-          <li><a href="#">Yangiliklar</a></li>
-          <li><a href="#">Biz haqimizda</a></li>
-          <li><a href="#">Bo'sh ish o'rinlari</a></li>
-          <li><a href="#">Aloqa</a></li>
-        </ul>
-        <div id="auth-link">
-          <a href="/main/login.html">Kirish</a>
-          <a href="/main/login.html">Ro'yxatdan o'tish</a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <p>bu yerda login</p>
-</body>
-<footer>
-  <div id="copy">Copyright ©<a href="https://ilunga.uz"> Ilunga LLC</a>. All Rights Reserved.</div>
+  <!-- menu -->
+<div class="container">
+    <!-- logo -->
+      <!-- site menu
+      Yangiliklar
+      Biz haqimizda
+      Rahbaryat
+      Bo'sh ish o'rinlari
+      Aloqa -->
+      <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">31-Maktab</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Yangiliklar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Rahbaryat
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Aloqa</a></li>
+                  <li><a class="dropdown-item" href="#">Biz haqimizda</a></li>
+                  <li><a class="dropdown-item" href="#">Bo'sh ish o'rinlari</a></li>
+            </ul>
+          </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Nima izlayabsiz?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Qidirish</button>
+            </form>
+            <!-- <button class="btn btn-primary m-2 p-2" type="submit">Kirish</button> -->
+      </nav>
+</div>
+<div class="container">
+
+</div>
+<footer class="bg-light py-3">
+    <div class="container">
+      <p class="text-center">Copyright &copy;2023 <a href="Ilunga.uz">Ilunga LLC</a> Barcha huquqlar himoyalangan</p>
+    </div>
 </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
