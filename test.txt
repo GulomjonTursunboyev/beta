@@ -1,0 +1,10 @@
+<a href="/index.html" id="logo">31-Maktab</a>
+        <ul>
+          <li><a href="#">Yangiliklar</a></li>
+          <li><a href="#">Biz haqimizda</a></li>
+          <li><a href="#">Bo'sh ish o'rinlari</a></li>
+          <li><a href="#">Aloqa</a></li>
+        </ul>
+        <div id="auth-link">
+          <a href="main/login.html">Kirish</a>
+          <a href="main/login.html">Ro'yxatdan o'tish</a>
